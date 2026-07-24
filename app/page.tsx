@@ -9,8 +9,9 @@ import gsap from 'gsap';
 const Spline = lazy(() => import('@splinetool/react-spline'));
 
 const link = [
-  { platform: 'Github', link: 'https://github.com/cuzknothz' },
-  { platform: 'Youtube', link: 'https://www.youtube.com/@cuzknothz' },
+  { platform: 'GitHub', link: 'https://github.com/cuzknothz' },
+  // { platform: 'Youtube', link: 'https://www.youtube.com/@cuzknothz' },
+  { platform: 'TikTok', link: 'https://www.tiktok.com/@u21876538762' },
 ];
 export default function HomePage() {
   const containerRef = useRef<HTMLDivElement>(null);
