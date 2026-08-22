@@ -49,13 +49,14 @@ export default function HomePage() {
       <div>
         <TextScramble text='Today' bold className='selection:bg-[#710bf7]!' />
         <TextScramble text='Working as a Web developer.' delay={100} />
+        <TextScramble text='Learning Music Arrangement.' delay={200} />
       </div>
       <div>
         <TextScramble
           text='Link'
           bold
           className='selection:bg-[#710bf7]!'
-          delay={200}
+          delay={300}
         />
         <div className='flex gap-2'>
           {link.map((i, idx) => (
@@ -68,7 +69,7 @@ export default function HomePage() {
               <TextScramble
                 text={i.platform}
                 className='underline'
-                delay={300 + idx * 100}
+                delay={400 + idx * 100}
               />
               <ArrowUpRightIcon />
             </Link>
